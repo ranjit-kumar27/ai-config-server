@@ -1,1 +1,17 @@
-account-service]
+server:
+  port: 9050
+  servlet.context-path: /account
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:9010/AI-account-db
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+stripe:
+  api:
+    key: sk_test_51TBwbSPYtNahJ5ZYaWUrLqQ3o1PPq361e0Hz72KvJXSzDqoPiAXFjKl5DUurvluSnRKOm2kLMGK7oPTxrDkkXGpK00nmf5Nby1
+  webhook:
+    secret: whsec_95d3343d097193a209a3bd198fb102664977d10d57a6dcf82cb6b3d2ae23b6fe
