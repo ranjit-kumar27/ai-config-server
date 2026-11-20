@@ -15,3 +15,6 @@ stripe:
     key: sk_test_51TBwbSPYtNahJ5ZYaWUrLqQ3o1PPq361e0Hz72KvJXSzDqoPiAXFjKl5DUurvluSnRKOm2kLMGK7oPTxrDkkXGpK00nmf5Nby1
   webhook:
     secret: whsec_95d3343d097193a209a3bd198fb102664977d10d57a6dcf82cb6b3d2ae23b6fe
+
+client:
+  url: http://localhost:3000
